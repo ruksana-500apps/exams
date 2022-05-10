@@ -5,7 +5,6 @@
     <b-form-input  v-model="product_category" placeholder="product category" required></b-form-input>
     <b-button @click=add() >Add</b-button>
     <b-table  striped hover :items="products" :fields="fields">
-    <!--  <listview :items="products"></listview>-->
     </b-table>
   </div>
 </template>
@@ -31,7 +30,6 @@
     methods:{
         add(){
           this.products.push({name:this.product_name, price:this.product_price  ,category:this.product_category})
-
          
         }
     }
