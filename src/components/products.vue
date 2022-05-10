@@ -1,8 +1,8 @@
 <template>
   <div>
-    <b-form-input  v-model="product_name" placeholder="Add product name" required></b-form-input>
-    <b-form-input  v-model="product_price" placeholder="Add product price" required></b-form-input>
-    <b-form-input  v-model="product_category" placeholder="Add product category" required></b-form-input>
+    <b-form-input  v-model="product_name" placeholder="product name" required></b-form-input>
+    <b-form-input  v-model="product_price" placeholder="product price" required></b-form-input>
+    <b-form-input  v-model="product_category" placeholder="product category" required></b-form-input>
     <b-button @click=add() >Add</b-button>
     <b-table  striped hover :items="products" :fields="fields">
     <!--  <listview :items="products"></listview>-->
