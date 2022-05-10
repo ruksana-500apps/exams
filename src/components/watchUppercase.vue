@@ -2,7 +2,7 @@
   <div>
     <b-form-input  v-model="uppercase_text" placeholder="Enter lowercase letters" required></b-form-input>
     <b-button @click=uppercase() >Click</b-button>
-     <b-form-input v-model="result" placeholder= required></b-form-input>
+     <b-form-input v-model="result" placeholder="Uppercase" required></b-form-input>
   </div>
 </template>
 
