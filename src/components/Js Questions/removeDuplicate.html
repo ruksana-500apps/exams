@@ -1,0 +1,14 @@
+<html>
+    <head>
+        Remove Duplicate Elements from Array
+    </head>
+    <body>
+        <script>
+           const array=[1,3,5,9,3,9,0];
+            var dupliateValues = array.filter(function(item, pos){
+                  return array.indexOf(item)== pos; 
+             });
+             console.log( dupliateValues);
+        </script>
+    </body>
+</html>
